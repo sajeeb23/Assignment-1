@@ -107,7 +107,6 @@ header{
 .img-three{
     width: 464px;
     height: 538px;
-    /* margin: 70px 75px 0px; */
     background-color: #477D1126;
     border-radius: 300px 300px 0px 0px;
 
@@ -131,4 +130,78 @@ header{
     font-family: Lato;
     font-size: 16px;
     text-decoration: underline;
+}
+
+
+
+/* featured second section  */
+
+.featured-two{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 200px 250px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px; 
+}
+
+.ft{ 
+    
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* hotdeal section */
+
+.hotdeal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+}
+
+.hotdeal-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 40px 0px 40px 0px;
+}
+
+.hotdeal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.deal-color{
+    color: #E55473;
+}
+
+.hotdeal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sign-btn{
+    margin-top: 30px;
+    border: 0px;
+    padding: 20px 45px;
+    border-radius: 8px;
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    background-color: #E55473;
 }
