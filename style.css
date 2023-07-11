@@ -222,20 +222,20 @@ header{
     color: #272727;
     font-family: Lato;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 800px;
 }
 .insta-description{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     margin-top: 40px;
 }
 
 .insta-img{
     align-items: center;
     justify-content: center;
-    margin: 80px 240px 100px;
+    margin: 80px 250px 100px;
 }
 
 
@@ -246,7 +246,7 @@ header{
     width: 1380px;
     height: 449px;
     border-radius: 8px;
-    margin: 200px 250px 170px;
+    margin: 10px 250px 170px;
     justify-content: center;
     align-items: center;
 }
@@ -299,6 +299,71 @@ header{
 }
 
 
+/* reviews section  */
+/* extra  */
+.reviews{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 160px;
+    padding: 120px 400px 80px;
+}
+
+
+.rvws-header{
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 100px;
+}
+
+
+.rvws{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.rvws-name{
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.rvws-writing{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+}
+
+
+.rvws-one{
+    padding: 15px 0px 0px 0px;
+    width: 320px;
+    height: 310px;
+    background-color: #64626226;
+    border-radius: 330px;
+}
+.rvws-two{
+    padding: 15px 0px 0px 0px;
+    width: 320px;
+    height: 310px;
+    background-color: #64626226;
+    border-radius: 300px;
+}
+.rvws-three{
+    padding: 15px 0px 0px 0px;
+    width: 320px;
+    height: 310px;
+    background-color: #64626226;
+    border-radius: 300px;
+}
+
+
 
 /* footer section */
 
@@ -325,7 +390,7 @@ header{
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .footer-para-two{
@@ -334,5 +399,5 @@ header{
     text-align: center;
     font-family: Lato;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400px;
 }
