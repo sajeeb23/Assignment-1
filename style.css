@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* header section */
+
+header{
+    background-color: #E554731A;
+
+
+}
+
+.site-header{
+    margin: 0px 240px 0px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+
+}
+
+.header-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.shop-btn{
+    margin-top: 30px;
+    border: 0px;
+    padding: 20px 45px;
+    border-radius: 8px;
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    background-color: #E55473;
+}
+.header-img{
+    margin-top: 50px;
+}
+
+
+
+
+
+/* featured section  */
+
+
+.featured-section{
+    background-color: white;
+    align-items: center;
+}
+
+.featured-header{
+    text-align: center;
+}
+
+.featured-title{
+    margin-top: 170px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+
+.featured-img{
+    display: flex;
+    justify-content: center;
+    margin: 100px 70px 0px ;
+    gap: 20px;
+}
+
+
+.img-one{
+    
+    width: 464px;
+    height: 538px;
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+   
+}
+
+.img-two{
+    width: 464px;
+    height: 538px;
+    background-color: #0597A026;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.img-three{
+    width: 464px;
+    height: 538px;
+    /* margin: 70px 75px 0px; */
+    background-color: #477D1126;
+    border-radius: 300px 300px 0px 0px;
+
+}
+.flower{
+    align-items: center;
+    margin: 110px 70px 20px;
+}
+
+.three{
+    width: 310x;
+    height: 428px;
+}
+
+.flowers-name{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 350px; 
+    color: #272727;
+    font-family: Lato;
+    font-size: 16px;
+    text-decoration: underline;
+}
