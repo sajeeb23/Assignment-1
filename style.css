@@ -64,7 +64,7 @@ header{
 }
 
 .featured-title{
-    margin-top: 170px;
+    margin-top: 150px;
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -83,7 +83,7 @@ header{
     display: flex;
     justify-content: center;
     margin: 100px 70px 0px ;
-    gap: 20px;
+    gap: 25px;
 }
 
 
@@ -164,7 +164,7 @@ header{
 .hotdeal{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-top: 130px;
+    margin-top: 160px;
 }
 
 .hotdeal-header{
@@ -218,7 +218,7 @@ header{
 }
 
 .insta-title{
-    margin-top: 150px;
+    margin-top: 130px;
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -246,7 +246,7 @@ header{
     width: 1380px;
     height: 449px;
     border-radius: 8px;
-    margin: 200px 250px 20px;
+    margin: 200px 250px 170px;
     justify-content: center;
     align-items: center;
 }
@@ -296,4 +296,43 @@ header{
     border: 0px;
     justify-content: center;
     padding: 20px 500px 20px 20px;
+}
+
+
+
+/* footer section */
+
+.footer{
+    align-items: center;
+    background-color: #050505;
+    text-align: center;
+    padding: 120px 400px 80px;
+
+}
+
+.footer-title{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-span{
+    color: #E55473;
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-para-two{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }
